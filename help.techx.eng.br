@@ -1,0 +1,14 @@
+help.techx.eng.br
+
+1 - Criar um helper para configuração de email
+2 - Criar um helper para baixar o app fiscal web
+3 - Como alterar senha do email
+4 - Funcionamento do aplicatico (Sincronizar, responder, enviar) - Tutorial
+
+DOD - Funcionando em produção
+
+Tarefas:
+
+1 - Desenvolver o hotsite
+2 - Desenvolver um mecanismo de deploy (Via gitpush/*ftp/ssh...)
+3 - Associar o subdomain da techx ao site
