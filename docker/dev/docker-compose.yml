@@ -20,6 +20,22 @@ services:
       # Where our data will be persisted
     volumes:
       - my-db:/var/lib/mysql
+
+  web:
+    build: ../.
+    command: ""
+    container_name: "help"
+    volumes:
+      - ../../:/var/www/html/laravel/
+      - ./../apache-logs/:/var/www/logs/
+      - ./config/apache2/sites-available/:/etc/apache2/sites-available/
+      - ./config/php.ini:/usr/local/etc/php/php.ini
+
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+    restart: always
 # Names our volume
 volumes:
   my-db:
