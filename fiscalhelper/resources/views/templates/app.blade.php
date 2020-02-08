@@ -12,7 +12,8 @@
     </head>
 @endsection
 <body>
-@section('body')
+
+@section('header')
     <header>
         <div class="hide-on-med-and-down">
             <div class="container">
@@ -21,7 +22,9 @@
         
             <div class="divider"></div>
         </div>
+@endsection
 
+@section('header-mobile')
         <!-- Mobile topnav -->
         <nav class="hide-on-med-and-up logo-color">
             <div class="nav-wrapper">
@@ -33,9 +36,12 @@
             </div>
         </nav>
     </header>
+@endsection
 
+
+@section('sidebar')
     <!-- Sidebar -->
-    <ul id="slide-out" class="sidenav sidenav-fixed">
+    <ul id="slide-out" class="sidenav sidenav-fixed hoverable">
         <div class="row"></div>        
         <div class="container">
             <div class="row center"><img class="circle z-depth-3" width="60" src="{{asset("images/logo-techx.png")}}" alt=""></a></div>
@@ -67,33 +73,15 @@
             </li>
         </ul>
     </ul>
+@endsection
 
+@section('main')
     <main>
-        <div class="container center-align">
-            <h4>FiscalHelper</h4>
-        </div>
-        <div class="center container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eum explicabo
-            ipsum nihil placeat? Amet eaque eum eveniet laborum ratione.
-        </div>
-        <div class="container center-align">
-            <h4>FiscalHelper</h4>
-        </div>
-        <div class="center container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eum explicabo
-            ipsum nihil placeat? Amet eaque eum eveniet laborum ratione.
-        </div>
-        <div class="container center-align">
-            <h4>FiscalHelper</h4>
-        </div>
-        <div class="center container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eum explicabo
-            ipsum nihil placeat? Amet eaque eum eveniet laborum ratione.
-        </div>
-        <div class="container center-align">
-            <h4>FiscalHelper</h4>
-        </div>
-        <div class="center container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eum explicabo
-            ipsum nihil placeat? Amet eaque eum eveniet laborum ratione.
-        </div>
+        
     </main>
+@endsection
+
+@section('footer')
 
     <footer class="page-footer logo-color">
         <div class="footer-copyright logo-color">
