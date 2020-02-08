@@ -9139,4 +9139,20 @@ input[type=range]::-ms-thumb {
             padding-left: 0;
         }
     }
+
+    .normal {
+        font-weight: normal;
+    }
+
+    .light {
+        font-weight: lighter;
+    }
+
+    .thick {
+        font-weight: bold;
+    }
+
+    .thicker {
+        font-weight: 900;
+    }
 }

@@ -15,7 +15,7 @@
 @section('body')
     <header>
         <!-- Topnav -->
-        <nav class="hide-on-med-and-down">
+        <nav class="hide-on-med-and-down light-blue accent-4">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">
                     <img class="circle z-depth-3" width="55" src="{{asset("images/logo-techx.png")}}" alt="">
@@ -29,7 +29,7 @@
         </nav>
 
         <!-- Mobile topnav -->
-        <nav class="hide-on-med-and-up">
+        <nav class="hide-on-med-and-up  light-blue accent-4">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo right">Logo</a>
                 <ul id="nav-mobile" class="left hide-on-med-and-up">
@@ -43,11 +43,32 @@
     <!-- Sidebar -->
     <ul id="slide-out" class="sidenav sidenav-fixed">
         <div class="row"></div>
-        <div class="container center">
-
-        </div>
         <div class="row center"><h4>FiscalHelper</h4></div>
         <div class="divider"></div>
+        <div class="nav-wrapper">
+            <form>
+                <div class="input-field">
+                    <input id="search" type="search" required placeholder="Pesquisar">
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+            </form>
+        </div>
+        <div class="divider"></div>
+        <ul class="collapsible expandable">
+            <li>
+                <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">email</i>Configurar Email</div>
+                <div class="collapsible-body center"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">system_update</i>Instalação do aplicativo</div>
+                <div class="collapsible-body center"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">chrome_reader_mode</i>Manual de uso</div>
+                <div class="collapsible-body center"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+        </ul>
     </ul>
 
     <main>

@@ -12373,7 +12373,14 @@ $jscomp.polyfill = function (e, r, p, m) {
   Range.init($('input[type=range]'));
 })(cash, M.anime);
 
+//sidebar
 $(document).ready(function(){
     $('.sidenav').sidenav();
+});
+
+//collapsible expandable
+var elem = document.querySelector('.collapsible.expandable');
+var instance = M.Collapsible.init(elem, {
+    accordion: false
 });
 
