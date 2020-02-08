@@ -14,24 +14,18 @@
 <body>
 @section('body')
     <header>
-        <!-- Topnav -->
-        <nav class="hide-on-med-and-down light-blue accent-4">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">
-                    <img class="circle z-depth-3" width="55" src="{{asset("images/logo-techx.png")}}" alt="">
-                </a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
-                </ul>
+        <div class="hide-on-med-and-down">
+            <div class="container">
+                <div class="row"><h4>Teste</h4></div>
             </div>
-        </nav>
+        
+            <div class="divider"></div>
+        </div>
 
         <!-- Mobile topnav -->
-        <nav class="hide-on-med-and-up  light-blue accent-4">
+        <nav class="hide-on-med-and-up logo-color">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo right">Logo</a>
+                <a href="#" class="brand-logo right logo-mobile"><img class="circle z-depth-3" width="45" src="{{asset("images/logo-techx.png")}}" alt=""></a>
                 <ul id="nav-mobile" class="left hide-on-med-and-up">
                     <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i
                                 class="material-icons">menu</i></a></li>
@@ -42,13 +36,16 @@
 
     <!-- Sidebar -->
     <ul id="slide-out" class="sidenav sidenav-fixed">
-        <div class="row"></div>
+        <div class="row"></div>        
+        <div class="container">
+            <div class="row center"><img class="circle z-depth-3" width="60" src="{{asset("images/logo-techx.png")}}" alt=""></a></div>
+        </div>
         <div class="row center"><h4>FiscalHelper</h4></div>
         <div class="divider"></div>
         <div class="nav-wrapper">
             <form>
                 <div class="input-field">
-                    <input id="search" type="search" required placeholder="Pesquisar">
+                    <input id="search" type="search" required placeholder="Pesquisar" autocomplete="off" >
                     <label class="label-icon" for="search"><i class="material-icons">search</i></label>
                     <i class="material-icons">close</i>
                 </div>
@@ -78,16 +75,33 @@
         <div class="center container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eum explicabo
             ipsum nihil placeat? Amet eaque eum eveniet laborum ratione.
         </div>
+        <div class="container center-align">
+            <h4>FiscalHelper</h4>
+        </div>
+        <div class="center container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eum explicabo
+            ipsum nihil placeat? Amet eaque eum eveniet laborum ratione.
+        </div>
+        <div class="container center-align">
+            <h4>FiscalHelper</h4>
+        </div>
+        <div class="center container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eum explicabo
+            ipsum nihil placeat? Amet eaque eum eveniet laborum ratione.
+        </div>
+        <div class="container center-align">
+            <h4>FiscalHelper</h4>
+        </div>
+        <div class="center container">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eum explicabo
+            ipsum nihil placeat? Amet eaque eum eveniet laborum ratione.
+        </div>
     </main>
 
-    <footer>
-
+    <footer class="page-footer logo-color">
+        <div class="footer-copyright logo-color">
+          <div class="container">
+          <div class="right">© 2020 TechX</div>            
+          </div>
+        </div>
     </footer>
-
-
-
-
-
 
     <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
