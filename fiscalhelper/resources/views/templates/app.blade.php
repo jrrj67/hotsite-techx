@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="row"><h4>Teste</h4></div>
             </div>
-        
+
             <div class="divider"></div>
         </div>
 @endsection
@@ -42,16 +42,16 @@
 @section('sidebar')
     <!-- Sidebar -->
     <ul id="slide-out" class="sidenav sidenav-fixed hoverable">
-        <div class="row"></div>        
+        <div class="row"></div>
         <div class="container">
-            <div class="row center"><img class="circle z-depth-3" width="60" src="{{asset("images/logo-techx.png")}}" alt=""></a></div>
+            <div class="row center"><img class="circle z-depth-3 hoverable" width="80" src="{{asset("images/logo-techx.png")}}" alt=""></a></div>
         </div>
-        <div class="row center"><h4>FiscalHelper</h4></div>
+        <div class="center"><h4>FiscalHelper</h4></div>
         <div class="divider"></div>
         <div class="nav-wrapper">
             <form>
                 <div class="input-field">
-                    <input id="search" type="search" required placeholder="Pesquisar" autocomplete="off" >
+                    <input id="search" type="search" placeholder="Pesquisar" autocomplete="off" >
                     <label class="label-icon" for="search"><i class="material-icons">search</i></label>
                     <i class="material-icons">close</i>
                 </div>
@@ -60,15 +60,41 @@
         <div class="divider"></div>
         <ul class="collapsible expandable">
             <li>
-                <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">email</i>Configurar Email</div>
+                <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">email</i>Configurar email</div>
+                <div class="collapsible-body container">
+                    <span>
+                        <a href="#">
+                            <logo>
+                                <img class="logo-padding" width="30" src="{{asset('images/outlook-logo.png')}}" alt="" style="padding-right: 10px;">
+                            </logo> Outlook
+                        </a>
+                    </span>
+                </div>
+                <div class="collapsible-body container">
+                    <span>
+                        <a href="#">
+                            <logo>
+                                <img class="logo-padding" width="30" src="{{asset('images/gmail-logo.png')}}" alt="" style="padding-right: 10px;">
+                            </logo> Gmail
+                        </a>
+                    </span>
+                </div>
+                <div class="collapsible-body container">
+                    <span>
+                        <a href="#">
+                            <logo>
+                                <img class="logo-padding" width="30" src="{{asset('images/samsung-logo.png')}}" alt="" style="padding-right: 10px;">
+                            </logo> Samsung Email
+                        </a>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">system_update</i>Instalação do aplicativo</div>
                 <div class="collapsible-body center"><span>Lorem ipsum dolor sit amet.</span></div>
             </li>
             <li>
-                <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">system_update</i>Instalação do aplicativo</div>
-                <div class="collapsible-body center"><span>Lorem ipsum dolor sit amet.</span></div>
-            </li>
-            <li>
-                <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">chrome_reader_mode</i>Manual de uso</div>
+                <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">chrome_reader_mode</i>Manual de uso</div>
                 <div class="collapsible-body center"><span>Lorem ipsum dolor sit amet.</span></div>
             </li>
         </ul>
@@ -77,7 +103,7 @@
 
 @section('main')
     <main>
-        
+
     </main>
 @endsection
 
@@ -86,7 +112,7 @@
     <footer class="page-footer logo-color">
         <div class="footer-copyright logo-color">
           <div class="container">
-          <div class="right">© 2020 TechX</div>            
+          <div class="right">© 2020 TechX</div>
           </div>
         </div>
     </footer>
