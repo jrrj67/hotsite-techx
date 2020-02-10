@@ -3232,9 +3232,9 @@ th {
 }
 
 .collection .collection-item {
-    background-color: #fff;
+    background-color: #F2F2F2;
     line-height: 1.5rem;
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin: 0;
     border-bottom: 1px solid #e0e0e0;
 }

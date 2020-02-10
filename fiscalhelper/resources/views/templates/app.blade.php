@@ -12,7 +12,6 @@
     </head>
 @endsection
 <body>
-
 @section('header')
     <header>
         <div class="hide-on-med-and-down">
@@ -38,13 +37,12 @@
     </header>
 @endsection
 
-
 @section('sidebar')
     <!-- Sidebar -->
     <ul id="slide-out" class="sidenav sidenav-fixed hoverable">
         <div class="row"></div>
         <div class="container">
-            <div class="row center"><img class="circle z-depth-3 hoverable" width="80" src="{{asset("images/logo-techx.png")}}" alt=""></a></div>
+            <div class="row center"><img class="circle z-depth-3 hoverable" width="80" src="{{asset("images/logo-techx.png")}}" alt=""></div>
         </div>
         <div class="center"><h4>FiscalHelper</h4></div>
         <div class="divider"></div>
@@ -61,30 +59,33 @@
         <ul class="collapsible expandable">
             <li>
                 <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">email</i>Configurar email</div>
-                <div class="collapsible-body container">
+                <div class="collapsible-body collection">
                     <span>
-                        <a href="#">
+                        <a class="collection-item" href="{{route('email_config')}}">
                             <logo>
                                 <img class="logo-padding" width="30" src="{{asset('images/outlook-logo.png')}}" alt="" style="padding-right: 10px;">
-                            </logo> Outlook
+                            </logo>
+                            Outlook
                         </a>
                     </span>
                 </div>
-                <div class="collapsible-body container">
+                <div class="collapsible-body collection">
                     <span>
-                        <a href="#">
+                        <a class="collection-item" href="{{route('email_config')}}">
                             <logo>
                                 <img class="logo-padding" width="30" src="{{asset('images/gmail-logo.png')}}" alt="" style="padding-right: 10px;">
-                            </logo> Gmail
+                            </logo>
+                            Gmail
                         </a>
                     </span>
                 </div>
-                <div class="collapsible-body container">
+                <div class="collapsible-body collection">
                     <span>
-                        <a href="#">
+                        <a class="collection-item" href="{{route('email_config')}}">
                             <logo>
                                 <img class="logo-padding" width="30" src="{{asset('images/samsung-logo.png')}}" alt="" style="padding-right: 10px;">
-                            </logo> Samsung Email
+                            </logo>
+                            Samsung Email
                         </a>
                     </span>
                 </div>

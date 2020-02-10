@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/email', function () {
+    return view('sections.email');
+})->name('email_config');
