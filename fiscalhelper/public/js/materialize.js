@@ -12381,6 +12381,36 @@ $(document).ready(function(){
         indicators: true,
         padding: 20
     });
+    $('input.autocomplete').autocomplete({
+        data: {
+            "Outlook": null,
+            "Gmail": null,
+            "Samsung": 'https://placehold.it/250x250'
+        },
+        onAutocomplete: function(val) {
+
+            // Callback function when value is autocompleted.
+
+            // Grabbing input after autocomplete is done
+            var value = $('input.autocomplete').val();
+
+
+            switch (value) {
+                case 'Outlook':
+                    window.location.href = "http://127.0.0.1:8000/email#outlook";
+                    break;
+                case 'Gmail':
+                    window.location.href = "http://127.0.0.1:8000/email#gmail";
+                    break;
+                case 'Samsung':
+                    window.location.href = "http://127.0.0.1:8000/email#samsung";
+                    break;
+                case 'Recuperar senha':
+
+            }
+
+        },
+    });
 });
 
 //collapsible expandable

@@ -134,6 +134,40 @@
                              alt="samsung">
                     </div>
                 </div>
+                <div class="divider"></div>
+                <div id="gmail" class="card-content center scrollspy">
+                    <h4>Recuperação de senha</h4>
+                </div>
+                <p class="card-action">Verifique se seu email e senha foram digitados corretamente, caso tenha esquecido sua senha, você
+                    pode recuperá-la acessando: <a
+                        href="https://sso.godaddy.com/v1/account/reset?app=ox&realm=pass">Recuperar senha</a></p>
+                <div class="divider"></div>
+                <div class="card-action">
+                    <h6>1. Insira seu email da TechX, e selecione Continue.</h6>
+                    <div class="row"></div>
+                    <div class="row center">
+                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/recover/1.png')}}"
+                             alt="recover">
+                    </div>
+                </div>
+                <div class="card-action">
+                    <h6>2. A seguir, você verá três opções para redefinir sua senha:</h6>
+                    <blockquote>
+                        Enviar um link para o seu email da TechX.
+                    </blockquote>
+                    <blockquote>
+                        Enviar um link para seu email secundário, se houver.
+                    </blockquote>
+                    <blockquote>
+                        Enviar um link para o administrador da sua conta. (Setor de RH da TechX)
+                    </blockquote>
+                    <p>Escolha uma opção e depois selecione Send Email.</p>
+                    <div class="row"></div>
+                    <div class="row center">
+                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/recover/2.png')}}"
+                             alt="recover">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

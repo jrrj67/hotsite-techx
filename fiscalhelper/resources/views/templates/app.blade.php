@@ -50,13 +50,17 @@
         <div class="center"><h4>FiscalHelper</h4></div>
         <div class="divider"></div>
         <div class="nav-wrapper">
-            <form>
-                <div class="input-field">
-                    <input id="search" type="search" placeholder="Pesquisar" autocomplete="off">
-                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                    <i class="material-icons">close</i>
-                </div>
-            </form>
+            <div class="row">
+
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">search</i>
+                            <input type="text" id="autocomplete-input" class="autocomplete">
+                            <label for="autocomplete-input">Pesquisar</label>
+                        </div>
+
+
+            </div>
         </div>
         <div class="divider"></div>
         <ul class="collapsible expandable">
@@ -94,6 +98,17 @@
                                      style="padding-right: 10px;">
                             </logo>
                             Samsung Email
+                        </a>
+                    </span>
+                </div>
+                <div class="collapsible-body collection">
+                    <span>
+                        <a class="collection-item" href="{{route('email_config')}}">
+                            <logo>
+                                <img class="logo-padding" width="30" src="{{asset('images/password-icon.png')}}" alt=""
+                                     style="padding-right: 10px;">
+                            </logo>
+                            Recuperar senha
                         </a>
                     </span>
                 </div>
