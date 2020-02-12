@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <div class="divider"></div>
-                <div id="gmail" class="card-content center scrollspy">
+                <div id="recover" class="card-content center scrollspy">
                     <h4>Recuperação de senha</h4>
                 </div>
                 <p class="card-action">Verifique se seu email e senha foram digitados corretamente, caso tenha esquecido sua senha, você

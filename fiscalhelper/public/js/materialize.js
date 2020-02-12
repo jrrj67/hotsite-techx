@@ -12385,7 +12385,10 @@ $(document).ready(function(){
         data: {
             "Outlook": null,
             "Gmail": null,
-            "Samsung": 'https://placehold.it/250x250'
+            "Samsung": null,
+            "Recuperar senha": null,
+            "Instalar": null,
+            "Manual de uso": null
         },
         onAutocomplete: function(val) {
 
@@ -12397,16 +12400,23 @@ $(document).ready(function(){
 
             switch (value) {
                 case 'Outlook':
-                    window.location.href = "http://127.0.0.1:8000/email#outlook";
+                    window.location.href = window.location.origin + "/email#outlook";
                     break;
                 case 'Gmail':
-                    window.location.href = "http://127.0.0.1:8000/email#gmail";
+                    window.location.href = window.location.origin + "/email#gmail";
                     break;
                 case 'Samsung':
-                    window.location.href = "http://127.0.0.1:8000/email#samsung";
+                    window.location.href = window.location.origin + "/email#samsung";
                     break;
                 case 'Recuperar senha':
-
+                    window.location.href = window.location.origin + "/email#recover";
+                    break;
+                case 'Instalar':
+                    window.location.href = window.location.origin + "/install#";
+                    break;
+                case 'Manual de uso':
+                    window.location.href = window.location.origin + "/manual";
+                    break;
             }
 
         },

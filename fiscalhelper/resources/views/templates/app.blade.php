@@ -103,7 +103,7 @@
                 </div>
                 <div class="collapsible-body collection">
                     <span>
-                        <a class="collection-item" href="{{route('email_config')}}">
+                        <a class="collection-item" href="{{route('email_config')}}#recover">
                             <logo>
                                 <img class="logo-padding" width="30" src="{{asset('images/password-icon.png')}}" alt=""
                                      style="padding-right: 10px;">
