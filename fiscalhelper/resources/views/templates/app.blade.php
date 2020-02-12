@@ -41,7 +41,7 @@
 
 @section('sidebar')
     <!-- Sidebar -->
-    <ul id="slide-out" class="sidenav sidenav-fixed hoverable">
+    <ul id="slide-out" class="sidenav sidenav-fixed hoverable z-depth-3">
         <div class="row"></div>
         <div class="container">
             <div class="row center"><a href="{{route('home')}}"><img class="circle z-depth-3 hoverable" width="80"
@@ -66,7 +66,7 @@
                 </div>
                 <div class="collapsible-body collection">
                     <span>
-                        <a class="collection-item" href="{{route('email_config')}}">
+                        <a class="collection-item" href="{{route('email_config')}}#outlook">
                             <logo>
                                 <img class="logo-padding" width="30" src="{{asset('images/outlook-logo.png')}}" alt=""
                                      style="padding-right: 10px;">
@@ -77,7 +77,7 @@
                 </div>
                 <div class="collapsible-body collection">
                     <span>
-                        <a class="collection-item" href="{{route('email_config')}}">
+                        <a class="collection-item" href="{{route('email_config')}}#gmail">
                             <logo>
                                 <img class="logo-padding" width="30" src="{{asset('images/gmail-logo.png')}}" alt=""
                                      style="padding-right: 10px;">
@@ -88,7 +88,7 @@
                 </div>
                 <div class="collapsible-body collection">
                     <span>
-                        <a class="collection-item" href="{{route('email_config')}}">
+                        <a class="collection-item" href="{{route('email_config')}}#samsung">
                             <logo>
                                 <img class="logo-padding" width="30" src="{{asset('images/samsung-logo.png')}}" alt=""
                                      style="padding-right: 10px;">
