@@ -13,11 +13,11 @@
             <div class="card horizontal">
                 <div class="card-stacked">
                     <div class="card-content">
-                        <h3 class="center">Seja bem-vindo ao FiscalHelper</h3>
+                        <h3 class="center">Seja bem-vindo ao Ajuda TechX</h3>
                     </div>
                     <div class="card-action">
                         <blockquote>
-                            <p>O FiscalHelper é um guia básico de como configurar e utilizar o aplicativo FiscalWeb em seu
+                            <p>O Ajuda TechX é um guia básico de como configurar e utilizar o aplicativo FiscalWeb em seu
                                 smartphone Android.</p>
                         </blockquote>
                     </div>

@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="{{asset("css/materialize.css")}}">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <title>FiscalHelper</title>
+        <title>Ajuda TechX</title>
     </head>
 @endsection
 <body>
@@ -47,7 +47,7 @@
             <div class="row center"><a href="{{route('home')}}"><img class="circle z-depth-3 hoverable" width="80"
                                                     src="{{asset("images/logo-techx.png")}}" alt=""></a></div>
         </div>
-        <div class="center"><h4>FiscalHelper</h4></div>
+        <div class="center"><h4>Ajuda TechX</h4></div>
         <div class="divider"></div>
         <div class="nav-wrapper">
             <div class="row">
