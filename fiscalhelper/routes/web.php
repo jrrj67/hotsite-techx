@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/email', function () {
     return view('sections.email');
 })->name('email_config');
+
+Route::get('/install', function () {
+    return view('sections.install');
+})->name('install_config');

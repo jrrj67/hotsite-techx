@@ -102,7 +102,17 @@
                 <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">system_update</i>Instalação
                     do aplicativo
                 </div>
-                <div class="collapsible-body center"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-body collection">
+                    <span>
+                        <a class="collection-item" href="{{route('install_config')}}">
+                            <logo>
+                                <img class="logo-padding" width="30" src="{{asset('images/install-logo.png')}}" alt=""
+                                     style="padding-right: 10px;">
+                            </logo>
+                            Como instalar
+                        </a>
+                    </span>
+                </div>
             </li>
             <li>
                 <div class="collapsible-header waves-effect waves-techx"><i
