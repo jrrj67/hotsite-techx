@@ -17,8 +17,7 @@
                     </div>
                     <div class="card-action">
                         <blockquote>
-                            <p>O Ajuda TechX é um guia básico de como configurar e utilizar o aplicativo FiscalWeb em seu
-                                smartphone Android.</p>
+                            <p>O Ajuda TechX é um guia básico de como configurar os serviços da TechX.</p>
                         </blockquote>
                     </div>
                 </div>
