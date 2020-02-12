@@ -118,7 +118,17 @@
                 <div class="collapsible-header waves-effect waves-techx"><i
                         class="material-icons">chrome_reader_mode</i>Manual de uso
                 </div>
-                <div class="collapsible-body center"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-body collection">
+                    <span>
+                        <a class="collection-item" href="{{route('manual_config')}}">
+                            <logo>
+                                <img class="logo-padding" width="30" src="{{asset('images/guide-icon.png')}}" alt=""
+                                     style="padding-right: 10px;">
+                            </logo>
+                            Como usar
+                        </a>
+                    </span>
+                </div>
             </li>
         </ul>
     </ul>

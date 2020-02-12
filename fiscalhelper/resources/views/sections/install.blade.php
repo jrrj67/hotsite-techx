@@ -1,5 +1,5 @@
 @include('templates.app')
-<title>Instalar o aplicativo</title>
+<title>Instalar o FiscalWeb</title>
 @yield('head')
 @yield('header-mobile')
 @yield('sidebar')
@@ -9,7 +9,7 @@
         <div class="card horizontal">
             <div id="install" class="card-stacked">
                 <div class="card-content center">
-                    <h4>Como instalar o aplicativo</h4>
+                    <h4>Como instalar o FiscalWeb</h4>
                 </div>
                 <div class="divider"></div>
                 <div class="card-action">

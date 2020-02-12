@@ -22,3 +22,7 @@ Route::get('/email', function () {
 Route::get('/install', function () {
     return view('sections.install');
 })->name('install_config');
+
+Route::get('/manual', function () {
+    return view('sections.manual');
+})->name('manual_config');

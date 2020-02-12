@@ -12377,6 +12377,10 @@ $jscomp.polyfill = function (e, r, p, m) {
 $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.scrollspy').scrollSpy();
+    $('.carousel').carousel({
+        indicators: true,
+        padding: 20
+    });
 });
 
 //collapsible expandable
