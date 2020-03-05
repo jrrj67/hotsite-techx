@@ -9476,4 +9476,7 @@ input[type=range]::-ms-thumb {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .padding-fiscal {
+        padding-left: 2px;
+    }
 }

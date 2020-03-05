@@ -27,12 +27,13 @@
         <!-- Mobile topnav -->
             <nav class="hide-on-med-and-up logo-color">
                 <div class="nav-wrapper">
-                    <a href="{{route('home')}}" class="brand-logo right logo-mobile"><img class="circle z-depth-3" width="45"
-                                                                          src="{{asset("images/logo-techx.png")}}"
-                                                                          alt=""></a>
+                    <a href="{{route('home')}}" class="brand-logo right logo-mobile"><img class="circle z-depth-3"
+                                                                                          width="45"
+                                                                                          src="{{asset("images/logo-techx.png")}}"
+                                                                                          alt=""></a>
                     <ul id="nav-mobile" class="left hide-on-med-and-up">
                         <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i
-                                    class="material-icons">menu</i></a></li>
+                                        class="material-icons">menu</i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -45,7 +46,8 @@
         <div class="row"></div>
         <div class="container">
             <div class="row center"><a href="{{route('home')}}"><img class="circle z-depth-3 hoverable" width="80"
-                                                    src="{{asset("images/logo-techx.png")}}" alt=""></a></div>
+                                                                     src="{{asset("images/logo-techx.png")}}"
+                                                                     alt=""></a></div>
         </div>
         <div class="center"><h4>Ajuda TechX</h4></div>
         <div class="divider"></div>
@@ -53,11 +55,11 @@
             <div class="row">
 
 
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">search</i>
-                            <input type="text" id="autocomplete-input" class="autocomplete">
-                            <label for="autocomplete-input">Pesquisar</label>
-                        </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">search</i>
+                    <input type="text" id="autocomplete-input" class="autocomplete">
+                    <label for="autocomplete-input">Pesquisar</label>
+                </div>
 
 
             </div>
@@ -66,7 +68,7 @@
         <ul class="collapsible expandable">
             <li>
                 <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">email</i>Configurar
-                    email
+                    email TechX
                 </div>
                 <div class="collapsible-body collection">
                     <span>
@@ -114,8 +116,11 @@
                 </div>
             </li>
             <li>
-                <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">system_update</i>Instalação
-                    do aplicativo
+                <div class="collapsible-header waves-effect waves-techx"><i class="material-icons padding-fiscal"><img
+                                class="logo-padding" width="35"
+                                src="{{asset('images/fiscalweb.png')}}" alt=""
+                                style="padding-right: 10px;"></i>
+                    FiscalWeb
                 </div>
                 <div class="collapsible-body collection">
                     <span>
@@ -127,11 +132,6 @@
                             Como instalar
                         </a>
                     </span>
-                </div>
-            </li>
-            <li>
-                <div class="collapsible-header waves-effect waves-techx"><i
-                        class="material-icons">chrome_reader_mode</i>Manual de uso
                 </div>
                 <div class="collapsible-body collection">
                     <span>
@@ -163,9 +163,9 @@
     </footer>
 
     <script
-        src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
     <script src="{{asset("js/materialize.js")}}"></script>
 @endsection
 </body>

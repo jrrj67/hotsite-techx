@@ -1,5 +1,4 @@
 @include('templates.app')
-<title>Como usar o FiscalWeb</title>
 @yield('head')
 @yield('header-mobile')
 @yield('sidebar')
