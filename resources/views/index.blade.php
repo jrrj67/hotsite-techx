@@ -8,6 +8,10 @@
 
 @yield('main')
 <main>
+    <div class="row">
+        <div class="row"></div>
+        <div class="row"></div>
+    </div>
     <div class="container hoverable">
         <div class="col s12 m7 z-depth-3">
             <div class="card horizontal">
@@ -23,6 +27,18 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row"></div>
     </div>
 </main>
 @yield('footer')

@@ -1,5 +1,4 @@
 @include('templates.app')
-<title>Configuração de email</title>
 @yield('head')
 @yield('header-mobile')
 @yield('sidebar')
@@ -140,7 +139,7 @@
                 </div>
                 <p class="card-action">Verifique se seu email e senha foram digitados corretamente, caso tenha esquecido sua senha, você
                     pode recuperá-la acessando: <a
-                        href="https://sso.godaddy.com/v1/account/reset?app=ox&realm=pass">Recuperar senha</a></p>
+                        href="https://sso.godaddy.com/v1/account/reset?app=ox&realm=pass" target="_blank">Recuperar senha</a></p>
                 <div class="divider"></div>
                 <div class="card-action">
                     <h6>1. Insira seu email da TechX, e selecione Continue.</h6>
