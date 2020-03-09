@@ -12381,6 +12381,7 @@ $(document).ready(function(){
         indicators: true,
         padding: 20
     });
+
     $('input.autocomplete').autocomplete({
         data: {
             "Outlook": null,
@@ -12388,7 +12389,7 @@ $(document).ready(function(){
             "Samsung": null,
             "Recuperar senha": null,
             "Instalar": null,
-            "Manual de uso": null
+            "Manual de uso": null,
         },
         onAutocomplete: function(val) {
 
@@ -12397,28 +12398,26 @@ $(document).ready(function(){
             // Grabbing input after autocomplete is done
             var value = $('input.autocomplete').val();
 
-
             switch (value) {
                 case 'Outlook':
                     window.location.href = window.location.origin + "/email#outlook";
-                    break;
+                break;
                 case 'Gmail':
                     window.location.href = window.location.origin + "/email#gmail";
-                    break;
+                break;
                 case 'Samsung':
                     window.location.href = window.location.origin + "/email#samsung";
-                    break;
+                break;
                 case 'Recuperar senha':
                     window.location.href = window.location.origin + "/email#recover";
-                    break;
+                break;
                 case 'Instalar':
                     window.location.href = window.location.origin + "/install#";
-                    break;
+                break;
                 case 'Manual de uso':
                     window.location.href = window.location.origin + "/manual";
-                    break;
+                break;
             }
-
         },
     });
 });

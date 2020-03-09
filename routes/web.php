@@ -26,3 +26,5 @@ Route::get('/install', function () {
 Route::get('/manual', function () {
     return view('sections.manual');
 })->name('manual_config');
+
+Route::post('/search', 'SearchController@search')->name('search');
