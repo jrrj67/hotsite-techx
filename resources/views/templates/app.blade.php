@@ -53,15 +53,21 @@
         <div class="divider"></div>
         <div class="nav-wrapper">
             <div class="row">
-
-
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">search</i>
-                    <input type="text" id="autocomplete-input" class="autocomplete">
-                    <label for="autocomplete-input">Pesquisar</label>
+                    <form action="{{route('search')}}" method="post" autocomplete="off">
+                        @csrf
+                        <i class="material-icons prefix">search</i>
+                        <label for="autocomplete-input">Pesquisar</label>
+                        <input name="search" type="text" id="autocomplete-input" class="autocomplete">
+                        @if(Session::get('error'))
+                            <div class="right">
+                                <span class="red-text">
+                                    {{Session::get('error')}}
+                                </span>
+                            </div>
+                        @endif
+                    </form>
                 </div>
-
-
             </div>
         </div>
         <div class="divider"></div>
