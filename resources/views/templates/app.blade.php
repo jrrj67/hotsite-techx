@@ -122,10 +122,7 @@
                 </div>
             </li>
             <li>
-                <div class="collapsible-header waves-effect waves-techx"><i class="material-icons padding-fiscal"><img
-                                class="logo-padding" width="35"
-                                src="{{asset('images/fiscalweb.png')}}" alt=""
-                                style="padding-right: 10px;"></i>
+                <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">build</i>
                     FiscalWeb
                 </div>
                 <div class="collapsible-body collection">
@@ -147,6 +144,18 @@
                                      style="padding-right: 10px;">
                             </logo>
                             Como usar
+                        </a>
+                    </span>
+                </div>
+            </li><li>
+                <div class="collapsible-header waves-effect waves-techx"><i class="material-icons">directions_car</i>
+                    GIFO
+                </div>
+                <div class="collapsible-body collection">
+                    <span>
+                        <a class="collection-item" href="{{route('shortcut_config')}}">
+                            <i class="logo-padding material-icons" style="padding-right: 10px; color: #212121">apps</i>
+                            Como adicionar atalho
                         </a>
                     </span>
                 </div>

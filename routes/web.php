@@ -27,4 +27,8 @@ Route::get('/manual', function () {
     return view('sections.manual');
 })->name('manual_config');
 
+Route::get('/shortcut', function () {
+    return view('gifo.manual');
+})->name('shortcut_config');
+
 Route::post('/search', 'SearchController@search')->name('search');
