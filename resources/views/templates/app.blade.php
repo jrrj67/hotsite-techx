@@ -11,7 +11,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="{{asset("images/favicons/favicon-16x16.png")}}">
         <link rel="manifest" href="{{asset("images/favicons/site.webmanifest")}}">
         <link rel="mask-icon" href="{{asset("images/favicons/safari-pinned-tab.svg")}}" color="#5bbad5">
-        <link rel="shortcut icon" href="public/images/favicons/favicon.ico">
+        <link rel="shortcut icon" href="{{\Illuminate\Support\Facades\URL::asset("images/favicons/favicon.ico")}}">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="msapplication-config" content="{{asset("images/favicons/browserconfig.xml")}}">
         <meta name="theme-color" content="#fa931a">
