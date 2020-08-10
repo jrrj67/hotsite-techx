@@ -38,7 +38,7 @@
                 <div class="nav-wrapper">
                     <a href="{{route('home')}}" class="brand-logo right logo-mobile"><img class="circle z-depth-3"
                                                                                           width="45"
-                                                                                          src="{{asset("images/logo-techx.png")}}"
+                                                                                          src="{{asset("android-chrome-256x256.png")}}"
                                                                                           alt=""></a>
                     <ul id="nav-mobile" class="left hide-on-med-and-up">
                         <li><a href="#" data-target="slide-out" class="sidenav-trigger"><i
@@ -54,8 +54,8 @@
     <ul id="slide-out" class="sidenav sidenav-fixed hoverable z-depth-3">
         <div class="row"></div>
         <div class="container">
-            <div class="row center"><a href="{{route('home')}}"><img class="circle z-depth-3 hoverable" width="80"
-                                                                     src="{{asset("images/logo-techx.png")}}"
+            <div class="row center"><a href="{{route('home')}}"><img class="circle z-depth-1 hoverable" width="80"
+                                                                     src="{{asset("android-chrome-256x256.png")}}"
                                                                      alt=""></a></div>
         </div>
         <div class="center"><h4>Ajuda TechX</h4></div>
