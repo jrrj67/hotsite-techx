@@ -12,7 +12,10 @@
                 </div>
                 <div class="divider"></div>
                 <div class="card-action">
-                    <h6>1. Em seu email da TechX, abra o convite para acessar o aplicativo. E toque em Let Me In.</h6>
+                    <h6>
+                        1. Em seu email da TechX, abra o convite para acessar o aplicativo.
+                        E toque em "Download the latest build".
+                    </h6>
                     <div class="row"></div>
                     <div class="row center">
                         <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/1.png')}}"
@@ -20,91 +23,67 @@
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>2. Em seguida, toque em Download para baixar o aplicativo Beta by Crashlytics. </h6>
+                    <h6>2. Em seguida, toque em "Sign in with Google". </h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/2.png')}}"
+                        <img class="responsive-img hoverable z-depth-2 col l4 push-l4" src="{{asset('images/install/2.jpeg')}}"
                              alt="install">
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>3. Acesse em seu smartphone Android, sua pasta Downloads, e toque em Beta by Crashlytics.</h6>
+                    <h6>3. Entre com sua conta do Google, digite seu email e toque em "Próxima".</h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/3.png')}}"
-                             alt="install">
+                        <img class="responsive-img hoverable z-depth-2 col l4 push-l4"
+                             src="{{asset('images/install/3.jpeg')}}" alt="install">
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>4. Toque em Instalar.</h6>
+                    <h6>4. Digite sua senha do Google e toque em "Próxima".</h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/4.png')}}"
-                             alt="install">
+                        <img class="responsive-img hoverable z-depth-2 col l4 push-l4"
+                             src="{{asset('images/install/4.jpeg')}}" alt="install">
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>5. Após a instalação, toque em Abrir. </h6>
+                    <h6>5. Toque em "Download" para baixar o aplicativo do FiscalWeb. </h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/5.png')}}"
-                             alt="install">
+                        <img class="responsive-img hoverable z-depth-2 col l4 push-l4"
+                             src="{{asset('images/install/5.jpeg')}}" alt="install">
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>6. Uma vez aberto, toque em OK para atualizar o aplicativo.</h6>
+                    <h6>6. Uma vez baixado, toque em "Abrir arquivo" para iniciar o aplicativo.</h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/6.png')}}"
-                             alt="install">
+                        <img class="responsive-img hoverable z-depth-2 col l4 push-l4"
+                             src="{{asset('images/install/6.jpeg')}}" alt="install">
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>7. Se o seu smartphone Android não tiver permissões para atualizar, toque em CONFIGURAÇÕES.</h6>
+                    <h6>7. Toque em "Instalar".</h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/7.png')}}"
-                             alt="install">
+                        <img class="responsive-img hoverable z-depth-2 col l4 push-l4"
+                             src="{{asset('images/install/7.jpeg')}}" alt="install">
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>8. Toque em Permitir desta fonte, e depois retorne para o aplicativo.</h6>
+                    <h6>8. Aguarde até a instalação ser concluída.</h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/8.png')}}"
-                             alt="install">
+                        <img class="responsive-img hoverable z-depth-2 col l4 push-l4"
+                             src="{{asset('images/install/8.jpeg')}}" alt="install">
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>9. Toque em Instalar.</h6>
+                    <h6>9. Para começar a usar o aplicativo do FiscalWeb, toque em "Abrir".</h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/9.png')}}"
-                             alt="install">
-                    </div>
-                </div>
-                <div class="card-action">
-                    <h6>10. Após o término da instalação, toque em Abrir.</h6>
-                    <div class="row"></div>
-                    <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/10.png')}}"
-                             alt="install">
-                    </div>
-                </div>
-                <div class="card-action">
-                    <h6>11. Insira seu nome e toque em NEXT.</h6>
-                    <div class="row"></div>
-                    <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/11.png')}}"
-                             alt="install">
-                    </div>
-                </div>
-                <div class="card-action">
-                    <h6>12. Para começar usar o aplicativo, toque em LAUNCH.</h6>
-                    <div class="row"></div>
-                    <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/install/12.png')}}"
-                             alt="install">
+                        <img class="responsive-img hoverable z-depth-2 col l4 push-l4"
+                             src="{{asset('images/install/9.jpeg')}}" alt="install">
                     </div>
                 </div>
             </div>
