@@ -58,7 +58,7 @@
                                                                      src="{{asset("android-chrome-256x256.png")}}"
                                                                      alt=""></a></div>
         </div>
-        <div class="center"><h4>Ajuda TechX</h4></div>
+        <div class="center"><h4>{{env('TESTE')}}</h4></div>
         <div class="divider"></div>
         <div class="nav-wrapper">
             <div class="row">
