@@ -28,10 +28,26 @@
                     </div>
                 </div>
                 <div class="card-action">
+                    <h6>2. Escolha a opção POP.</h6>
+                    <div class="row"></div>
+                    <div class="row center">
+                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/outlook/escolher.png')}}"
+                             alt="outlook">
+                    </div>
+                </div>
+                <div class="card-action">
+                    <h6>2.1 Insira as configurações abaixo e selecione Avançar.</h6>
+                    <div class="row"></div>
+                    <div class="row center">
+                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/outlook/config.png')}}"
+                             alt="outlook">
+                    </div>
+                </div>
+                <div class="card-action">
                     <h6>3. Insira sua senha e selecione Conectar.</h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/outlook/3.png')}}"
+                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/outlook/insira.png')}}"
                              alt="outlook">
                     </div>
                 </div>
