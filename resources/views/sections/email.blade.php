@@ -20,10 +20,12 @@
                     </div>
                 </div>
                 <div class="card-action">
-                    <h6>2. Insira seu endereço de email e selecione Conectar.</h6>
+                    <h6>
+                        2. Insira seu endereço de email e selecione Conectar e marque a opção Configurar minha conta manualmente.
+                    </h6>
                     <div class="row"></div>
                     <div class="row center">
-                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/outlook/2.png')}}"
+                        <img class="responsive-img hoverable z-depth-2" src="{{asset('images/outlook/login.png')}}"
                              alt="outlook">
                     </div>
                 </div>
